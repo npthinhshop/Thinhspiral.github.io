@@ -110,11 +110,11 @@
                     <div class="col-lg-12">
                         <div class="title-heading mt-5">
                             <h6 class="sub-title">Looking for a Designer !</h6>
-                            <h1 class="heading text-primary mb-3">I'm Cristino Murphy</h1>
+                            <h1 class="heading text-primary mb-3">I'm Mr.Thinh</h1>
                             <p class="para-desc text-muted">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
                             <div class="mt-4 pt-2">
                                 <a href="https://zalo.me/0523501944" class="btn btn-primary rounded mb-2 mr-2">Liên hệ zalo</a>
-                                <a href="javascript:void(0)" class="btn btn-outline-primary rounded mb-2">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
+                                <a href="https://www.topcv.vn/xem-cv/VwYOUFVRCVMLAVBUAlJRCQAFAV1QUwkHVgcDWw00d9" class="btn btn-outline-primary rounded mb-2">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -1244,7 +1244,36 @@
             </div><!--end container-->
         </footer><!--end footer-->
         <!-- Footer End -->
-        
+        <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100219362288111");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
         <!-- Back to top -->
         <a href="#" class="back-to-top rounded text-center" id="back-to-top"> 
             <i class="mdi mdi-chevron-up d-block"> </i> 
