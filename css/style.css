@@ -2384,4 +2384,7 @@ p {
   padding: 30px 0;
   border-top: 1px solid #4e555d;
 }
+video.vid.img-fluid.rounded.d-block {
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
