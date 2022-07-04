@@ -25,6 +25,8 @@
         <!-- Custom Css -->
         <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
         <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0" nonce="DZsTT1at"></script>
 
     </head>
 
@@ -156,19 +158,9 @@
                                 </blockquote>
                                 <p class="text-muted">Chúc anh/chị thành công!</p>
                                 <div class="post-meta mt-3">
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="list-inline-item float-right">
-                                            <ul class="list-unstyled">
-                                                <li class="list-inline-item">Share :</li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted"><i class="mdi mdi-facebook"></i></a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted"><i class="mdi mdi-instagram"></i></a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted"><i class="mdi mdi-google-plus"></i></a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted"><i class="mdi mdi-twitter"></i></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
-                                    </ul>
+                                    <!--button share facebook-->
+                                    <div class="fb-like" data-href="https://thinhspiral.github.io/nen-file-audio-eoe.html" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+                                    <!--end share facebook-->
                                 </div>
                             </div>
                         </div>
@@ -256,7 +248,7 @@
 
                                         <div class="col-md-12">
                                             <div class="send">
-                                            <button type="submit" class="btn btn-primary rounded">Send comment</button>
+                                            <button type="submit" class="btn btn-primary rounded" onclick="myFunction()" >Send comment</button>
                                             </div>
                                         </div><!--end col-->
                                     </div><!--end row-->
@@ -399,6 +391,11 @@
             clip.addEventListener("mouseout", function (e) {
                clip.pause();
             })
+        </script>
+        <script>
+            function myFunction() {
+              alert("Tính năng đang update. Xin vui lòng thử lại!!");
+            }
         </script>
     </body>
 
