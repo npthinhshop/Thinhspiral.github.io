@@ -49,7 +49,7 @@
             <div class="about-section">
                 <div class="contact-box">
 					<div class="contact-form">
-						<form method="post" class="dzForm dezPlaceAni" action="script/contact.php">
+						<form class="dezPlaceAni" action="mailto:youraddr@domain.tld" method="GET">
 							<h6 class="title">Contact Us</h6>
 							<div class="dzFormMsg"></div>
 							<input type="hidden" value="Contact" name="dzToDo" >
@@ -62,18 +62,18 @@
 								</div>
 								<div class="col-sm-6">
 									<div class="form-group">
-										<label>Your Email Address</label>
-										<input name="dzEmail" type="email" class="form-control" required >
+										<label>Subject</label>
+										<input name="subject" type="text" class="form-control" required >
 									</div>
 								</div>
 								<div class="col-sm-12">
 									<div class="form-group">
 										<label>Your Message</label>
-										<textarea name="Message" rows="4" class="form-control" required ></textarea>
+										<textarea name="body" rows="4" class="form-control" required ></textarea>
 									</div>
 								</div>
 								<div class="col-md-12">
-									<button name="submit" type="submit" value="Submit" class="site-button gradient shadow button-lg black">Send Message</button>
+									<button name="submit" type="submit" value="Send" class="site-button gradient shadow button-lg black">Send Message</button>
 								</div>
 							</div>
 						</form>
